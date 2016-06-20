@@ -10,9 +10,16 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    var displayimage : UIImage!
+    
+    @IBOutlet weak var displayimageview: UIImageView!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    displayimageview.image = displayimage
+        
+        
         // Do any additional setup after loading the view.
     }
 
